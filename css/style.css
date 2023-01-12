@@ -130,8 +130,6 @@ nav {
     rgba(231, 255, 244, 0.937) 01%
   );
   border: 5px solid white;
-  
- 
 }
 
 .top-text p {
@@ -381,9 +379,8 @@ nav {
   border-radius: 20px;
   padding: 20px;
   font-size: 18px;
-  font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
 }
-
 
 .details-height {
   width: 125px;
@@ -394,7 +391,7 @@ nav {
   margin-left: 10px;
   padding: 15px;
   font-size: 18px;
-  font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
 }
 
 .details-height h5 {
@@ -420,17 +417,15 @@ nav {
   font-size: 14px;
   width: 100px;
   color: rgb(63, 81, 63);
-  font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
 }
+
+/* ABOUT */
 
 .about-main {
   display: grid;
-  grid-template-columns: 60% 35%;
-  gap: 5%;
-  padding: 0 30px 0 13%;
-  
+  grid-template-columns: 1fr 0.8fr;
 }
-
 .stories-top {
   border-bottom: 1px solid rgb(225, 224, 224);
   font-family: "Lucida Sans", "Lucida Sans Unicode", sans-serif;
@@ -615,7 +610,7 @@ nav {
   margin-right: 15px;
 }
 .arrow-btn {
-  border-left: 1px solid rgba(233, 231, 231, 0.517);;
+  border-left: 1px solid rgba(233, 231, 231, 0.517);
   height: 1px;
   background-color: rgb(213, 206, 206);
   margin-top: 50px;
@@ -625,13 +620,6 @@ nav {
   width: 20px;
   bottom: 3px;
   position: relative;
-}
-
-.about-left {
-  border-left: 1px solid rgba(233, 231, 231, 0.517);
-  padding: 0 35px 0 20px;
-  margin-top: 30px;
-  height: 218vh;
 }
 
 .wikipedia {
@@ -725,8 +713,6 @@ nav {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-
 .bio-list {
   margin-bottom: 7px;
   line-height: 22px;
@@ -772,54 +758,52 @@ nav {
   margin: 10px 0 0 40px;
 }
 
-.stats{
+.stats {
   margin-top: 15px;
   width: 90%;
 }
-.stats1{
+.stats1 {
   display: flex;
   justify-content: space-between;
- 
-
 }
-.stats1 h5{
+.stats1 h5 {
   font-size: 18px;
-  font-weight: 400
+  font-weight: 400;
 }
-.stats1 img{
-  border:1px solid rgba(233, 231, 231, 0.517);
-border-radius: 50%;
-padding: 5px;
+.stats1 img {
+  border: 1px solid rgba(233, 231, 231, 0.517);
+  border-radius: 50%;
+  padding: 5px;
   width: 30px;
 }
-.argentina{
+.argentina {
   margin-bottom: 13px;
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 
-.argentina h5{
+.argentina h5 {
   font-size: 14px;
-  font-weight:200;
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.world-header{
-  display:flex;
+.world-header {
+  display: flex;
   justify-content: space-between;
   font-size: 21px;
   color: rgb(144, 143, 143);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight:100;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 100;
   margin-bottom: 15px;
   border-bottom: 1px solid rgba(233, 231, 231, 0.517);
 }
 
-.world-cup{
-  display:flex;
+.world-cup {
+  display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgba(233, 231, 231, 0.517);
 }
-.world-cup h6{
+.world-cup h6 {
   width: 70px;
   margin-top: 5px;
   font-weight: normal;
@@ -829,42 +813,36 @@ padding: 5px;
   color: gray;
 }
 
-.world-cup p{
+.world-cup p {
   margin-top: 10px;
 }
 
-.world-cup h6 a{
+.world-cup h6 a {
   text-decoration: none;
-  color:rgb(10, 10, 10)
- 
-  
+  color: rgb(10, 10, 10);
 }
 
-.world-cup h6 a:hover{
+.world-cup h6 a:hover {
   text-decoration: underline;
 }
-.profilee{
+.profilee {
   border-bottom: 1px solid rgba(233, 231, 231, 0.517);
 }
-.profileeimgs{
+.profileeimgs {
   display: flex;
   width: 250px;
   justify-content: space-evenly;
-  
 }
-.profileeimgs div p{
+.profileeimgs div p {
   font-size: 14px;
-
 }
-.profilee h4{
-
-font-weight: 400;
-margin: 25px 0 10px 0;
-font-size: 20px;
-
+.profilee h4 {
+  font-weight: 400;
+  margin: 25px 0 10px 0;
+  font-size: 20px;
 }
 
-.search-for h4{
+.search-for h4 {
   margin-top: 20px;
   font-size: 20px;
   font-weight: 400;
@@ -872,39 +850,37 @@ font-size: 20px;
   margin-bottom: 25px;
 }
 
-.search-forimgs{
+.search-forimgs {
   display: flex;
   justify-content: space-between;
   line-height: 14px;
   cursor: pointer;
-
 }
 
-.search-forimgs img{
-border-radius: 8px;
-margin-right: 6px;
-margin-bottom: 5px;
+.search-forimgs img {
+  border-radius: 8px;
+  margin-right: 6px;
+  margin-bottom: 5px;
 }
-.search-forimgs p{
+.search-forimgs p {
   font-size: 14px;
   margin-left: 10px;
-
 }
-a{
+a {
   text-decoration: none;
 }
 
-.search-forimgs p a{
-  color:rgba(0, 0, 0, 0.851);
+.search-forimgs p a {
+  color: rgba(0, 0, 0, 0.851);
 }
 
-.search-forimgs p a:hover{
+.search-forimgs p a:hover {
   text-decoration: underline;
 }
 
-.see-more{
+.see-more {
   display: flex;
-height: 40px;
+  height: 40px;
   text-align: center;
 
   margin: 0 auto;
@@ -912,13 +888,13 @@ height: 40px;
   border-radius: 50px;
 }
 
-.see-more p{
-  margin-left:37%;
+.see-more p {
+  margin-left: 37%;
   margin-top: 5px;
   color: black;
 }
 
-.see-more img{
+.see-more img {
   height: 20px;
   margin-top: 6px;
   margin-left: 7px;
