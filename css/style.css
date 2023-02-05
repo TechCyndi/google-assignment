@@ -104,7 +104,7 @@ nav {
 .major p {
   margin-left: 5px;
   margin-top: 3px;
-  color: rgb(128, 128, 128);
+  color: rgb(70, 70, 70);
 }
 .major a {
   display: flex;
@@ -219,7 +219,6 @@ nav {
 .messi-smile2 img {
   width: 90%;
   height: 148px;
-  border-top-right-radius: 15px;
   cursor: pointer;
 }
 
@@ -420,11 +419,16 @@ nav {
   font-family: arial, sans-serif;
 }
 
+
 /* ABOUT */
+.right-panel {
+  max-width: 65vw;
+}
 
 .about-main {
   display: grid;
   grid-template-columns: 1fr 0.8fr;
+  padding-inline: 2rem;
 }
 .stories-top {
   border-bottom: 1px solid rgb(225, 224, 224);
@@ -460,7 +464,9 @@ nav {
 .stories-main img:nth-child(1) {
   border-radius: 10px;
   margin-bottom: 5px;
-  width: 350px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .stories-main p {
   font-size: 16px;
@@ -523,6 +529,9 @@ nav {
 }
 .sbanation-img img {
   border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .talk-nation {
